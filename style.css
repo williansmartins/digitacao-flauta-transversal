@@ -1,16 +1,124 @@
-body h1 {
-  background-color: blue;
-}
 body .digitacao {
-  border: solid 1px red;
-  width: 100px;
+  border: solid 1px black;
+  width: 50px;
+  height: 290px;
+  border-radius: 11px;
 }
 body .digitacao .nota {
-  border: solid 1px #3ab146;
+  height: 27px;
+  background-color: #000080ff;
+  color: #00ffffff;
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 5px;
 }
 body .digitacao .pentagrama {
-  border: solid 1px yellow;
+  margin-top: 10px;
+  height: 83px;
+  position: relative;
 }
-body .digitacao .teclas {
-  border: solid 1px pink;
+body .digitacao .pentagrama .bolinha {
+  width: 9px;
+  height: 9px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  left: 21px;
+}
+body .digitacao .pentagrama .bolinha.linha0 {
+  top: 66px;
+}
+body .digitacao .pentagrama .bolinha.linha1 {
+  top: 56px;
+}
+body .digitacao .pentagrama .bolinha.linha2 {
+  top: 46px;
+}
+body .digitacao .pentagrama .bolinha.linha3 {
+  top: 36px;
+}
+body .digitacao .pentagrama .bolinha.linha4 {
+  top: 26px;
+}
+body .digitacao .pentagrama .bolinha.linha5 {
+  top: 16px;
+}
+body .digitacao .pentagrama .bolinha.linha6 {
+  top: 6px;
+}
+body .digitacao .pentagrama .bolinha.linha7 {
+  top: -4px;
+}
+body .digitacao .pentagrama .bolinha.espaco0 {
+  top: 61px;
+}
+body .digitacao .pentagrama .bolinha.espaco1 {
+  top: 51px;
+}
+body .digitacao .pentagrama .bolinha.espaco2 {
+  top: 41px;
+}
+body .digitacao .pentagrama .bolinha.espaco3 {
+  top: 31px;
+}
+body .digitacao .pentagrama .bolinha.espaco4 {
+  top: 21px;
+}
+body .digitacao .pentagrama .bolinha.espaco5 {
+  top: 11px;
+}
+body .digitacao .pentagrama .bolinha.espaco6 {
+  top: 1px;
+}
+body .digitacao .pentagrama .bolinha.espaco7 {
+  top: -9px;
+}
+body .digitacao .pentagrama .bolinha.sustenido {
+  display: block;
+  background-color: green;
+  left: 12px;
+}
+body .digitacao .pentagrama .bolinha.sustenido:after {
+  content: "#";
+  margin-left: -8px;
+  margin-top: -2px;
+  display: block;
+  font-size: 11px;
+  color: green;
+}
+body .digitacao .pentagrama .bolinha.bemol {
+  display: block;
+  background-color: purple;
+  left: 36px;
+}
+body .digitacao .pentagrama .bolinha.bemol:after {
+  content: "b";
+  margin-left: -8px;
+  margin-top: -2px;
+  display: block;
+  font-size: 11px;
+  color: purple;
+}
+body .digitacao .pentagrama .regiao {
+  border-top: solid 1px black;
+  height: 9px;
+}
+body .digitacao .pentagrama .regiao.cima {
+  border-top: solid 1px #b3b3b3;
+  margin: 0 auto;
+}
+body .digitacao .pentagrama .regiao.baixo {
+  border-top: solid 1px #b3b3b3;
+  margin: 0 auto;
+}
+body .digitacao .teclas #chave1 {
+  width: 10px;
+}
+body .digitacao .teclas .tecla {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  margin-bottom: 1px;
+  border-radius: 6px;
+  border: solid 1px black;
 }

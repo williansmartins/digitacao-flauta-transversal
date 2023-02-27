@@ -1,23 +1,166 @@
 body{
     h1{
-        background-color: blue;
+        // background-color: blue;
     }
 
 
     .digitacao{
-        border: solid 1px red;
-        width: 100px;
+        border: solid 1px black;
+        width: 50px;
+        height: 290px;
+        border-radius: 11px;
         
         .nota{
-            border: solid 1px rgb(58, 177, 70);
+            height: 27px;
+            background-color: #000080ff;
+            color: #00ffffff;
+            text-align: center;
+            border-radius: 10px;
+            padding-top: 5px;
         }
         
         .pentagrama{
-            border: solid 1px yellow;
+            margin-top: 10px;
+            height: 83px;
+            position: relative;
+
+            .bolinha{
+                width: 9px;
+                height: 9px;
+                background-color: black;
+                border-radius: 5px;
+                position: absolute;
+                left: 21px;
+
+                &.linha0{
+                    top: 66px;
+                }
+                
+                &.linha1{
+                    top: 56px;
+                }
+
+                &.linha2{
+                    top: 46px;
+                }
+
+                &.linha3{
+                    top: 36px;
+                }
+
+                &.linha4{
+                    top: 26px;
+                }
+
+                &.linha5{
+                    top: 16px;
+                }
+
+                &.linha6{
+                    top: 6px;
+                }
+
+                &.linha7{
+                    top: -4px;
+                }
+
+                &.espaco0{
+                    top: 66px - 5px;
+                }
+                
+                &.espaco1{
+                    top: 56px - 5px;
+                }
+
+                &.espaco2{
+                    top: 46px - 5px;
+                }
+
+                &.espaco3{
+                    top: 36px - 5px;
+                }
+
+                &.espaco4{
+                    top: 26px - 5px;
+                }
+
+                &.espaco5{
+                    top: 16px - 5px;
+                }
+
+                &.espaco6{
+                    top: 6px - 5px;
+                }
+
+                &.espaco7{
+                    top: -4px - 5px;
+                }
+
+
+                &.sustenido{
+                    display: block;
+                    background-color: green;
+                    left: 12px;
+
+                    &:after{
+                        content: "#";
+                        margin-left: -8px;
+                        margin-top: -2px;
+                        display: block;
+                        font-size: 11px;
+                        color: green;
+                    }
+                }
+
+                &.bemol{
+                    display: block;
+                    background-color: purple;
+                    left: 36px;
+
+                    &:after{
+                        content: "b";
+                        margin-left: -8px;
+                        margin-top: -2px;
+                        display: block;
+                        font-size: 11px;
+                        color: purple;
+                    }
+                }
+            }
+
+            .regiao{
+                border-top: solid 1px black;
+                height: 9px;
+
+                &.cima{
+                    border-top: solid 1px rgb(179, 179, 179);
+                    // width: 16px;
+                    margin: 0 auto;
+                }
+
+                &.baixo{
+                    border-top: solid 1px rgb(179, 179, 179);
+                    // width: 16px;
+                    margin: 0 auto;
+                }
+            }
         }
         
         .teclas{
-            border: solid 1px pink;
+            // border: solid 1px pink;
+
+            #chave1{
+                width: 10px;
+            }
+
+            .tecla{
+                width: 12px;
+                height: 12px;
+                background-color: red;
+                margin-bottom: 1px;
+                border-radius: 6px;
+                border: solid 1px black;
+            }
         }
     }
 }
