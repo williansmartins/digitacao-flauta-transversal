@@ -13,11 +13,9 @@
     <div class="digitacao">
         <div class="nota">Dó</div>
         <div class="pentagrama">
-            <div class="regiao cima">
+            <div class="regiao extra cima">
             </div>
-            <div class="regiao cima">
-            </div>
-            <div class="regiao">
+            <div class="regiao extra cima">
             </div>
             <div class="regiao">
             </div>
@@ -27,16 +25,18 @@
             </div>
             <div class="regiao">
             </div>
-            <div class="regiao baixo">
+            <div class="regiao">
+            </div>
+            <div class="regiao extra baixo">
             </div>
             <!-- <span class="bolinha linha1"></span> -->
             <!-- <span class="bolinha linha2 sustenido"></span>
             <span class="bolinha linha3 bemol"></span>
-            <span class="bolinha linha4 sustenido"></span>
             <span class="bolinha linha5 bemol"></span>
+        -->
+            <span class="bolinha linha4 sustenido"></span>
             <span class="bolinha linha6 bemol"></span>
             <span class="bolinha linha7 bemol"></span>
-            -->
             <span class="bolinha linha0 "></span> 
             <!-- <span class="bolinha espaco0 sustenido"></span> -->
             <!-- <span class="bolinha espaco1 bemol"></span>
@@ -48,17 +48,28 @@
             <span class="bolinha espaco7 sustenido"></span> -->
         </div>
         <div class="teclas">
-            <svg id="chave1" viewBox="10.035 10.422 21.841 56.847" xmlns="http://www.w3.org/2000/svg">
-                <path style="fill: purple; stroke: pink;" d="M 27.016 67.24 L 27.078 24.749 C 22.933 22.286 23.555 22.929 21.551 22.741 C 16.141 22.232 13.371 25.361 10.978 18.407 C 7.284 7.673 15.464 10.63 17.954 11.308 C 22.567 12.564 26.152 14.608 27.303 15.416 C 32.279 18.91 31.422 24.63 31.422 24.63 L 31.876 67.269 L 27.016 67.24 Z"/>
-            </svg>
-            <div class="tecla">1</div>
-            <div class="tecla">2</div>
-            <div class="tecla">3</div>
+            <!-- 
+                <svg id="chave1" class="chave active" viewBox="10.035 10.422 21.841 56.847" xmlns="http://www.w3.org/2000/svg">
+                    <path style="fill: red; stroke: black;stroke-width:4px;" d="M 27.016 67.24 L 27.078 24.749 C 22.933 22.286 23.555 22.929 21.551 22.741 C 16.141 22.232 13.371 25.361 10.978 18.407 C 7.284 7.673 15.464 10.63 17.954 11.308 C 22.567 12.564 26.152 14.608 27.303 15.416 C 32.279 18.91 31.422 24.63 31.422 24.63 L 31.876 67.269 L 27.016 67.24 Z"/>
+                </svg> 
+            -->
+            <span id="chave1" class="chave active"></span>
 
-            <div class="tecla">4</div>
-            <div class="tecla">5</div>
-            <div class="tecla">6</div>
-            <div class="tecla">7</div>
+            <div class="tecla tecla1"></div>
+            <div class="tecla tecla2 active"></div>
+            <div class="tecla tecla3"></div>
+
+            <span id="chave2" class="chave active"></span>
+            <span id="chave3" class="chave active"></span>
+
+            <div class="tecla tecla4"></div>
+            <span id="chave4" class="chave active"></span>
+            <div class="tecla tecla5 active"></div>
+            <span id="chave5" class="chave active"></span>
+            <div class="tecla tecla6"></div>
+            <span id="chave6" class="chave active"></span>
+            <span id="chave7" class="chave active"></span>
+            <span id="chave8" class="chave active"></span>
         </div>
     </div>
 </body>
