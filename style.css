@@ -1,0 +1,16 @@
+body h1 {
+  background-color: blue;
+}
+body .digitacao {
+  border: solid 1px red;
+  width: 100px;
+}
+body .digitacao .nota {
+  border: solid 1px #3ab146;
+}
+body .digitacao .pentagrama {
+  border: solid 1px yellow;
+}
+body .digitacao .teclas {
+  border: solid 1px pink;
+}
