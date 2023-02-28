@@ -1,11 +1,22 @@
 body .digitacao {
   border: solid 1px black;
   width: 50px;
-  height: 290px;
   border-radius: 11px;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 40px;
+}
+body .digitacao.grupo-1 {
+  background-color: #cecece;
+}
+body .digitacao.grupo-2 {
+  background-color: #ff5d3c;
+}
+body .digitacao.grupo-3 {
+  background-color: #a6fd86;
 }
 body .digitacao .nota {
-  height: 27px;
+  height: 40px;
   background-color: #000080ff;
   color: #00ffffff;
   text-align: center;
@@ -16,7 +27,7 @@ body .digitacao .pentagrama {
   margin-top: 10px;
   height: 83px;
   position: relative;
-  z-index: 0;
+  padding-top: 25px;
 }
 body .digitacao .pentagrama .bolinha {
   width: 9px;
@@ -25,7 +36,6 @@ body .digitacao .pentagrama .bolinha {
   border-radius: 5px;
   position: absolute;
   left: 21px;
-  z-index: 1;
 }
 body .digitacao .pentagrama .bolinha.linha0 {
   top: 66px;
@@ -211,4 +221,8 @@ body .digitacao .teclas .tecla.tecla5 {
 }
 body .digitacao .teclas .tecla.tecla6 {
   margin-top: 2px;
+}
+.digitacao::after {
+  content: "\a";
+  white-space: pre;
 }

@@ -7,11 +7,26 @@ body{
     .digitacao{
         border: solid 1px black;
         width: 50px;
-        height: 290px;
+        // height: 290px;
         border-radius: 11px;
+        float: left;
+        margin-left: 10px;
+        padding-bottom: 40px;
+
+        &.grupo-1{
+            background-color: rgb(206, 206, 206);
+        }
+
+        &.grupo-2{
+            background-color: rgb(255, 93, 60);
+        }
+
+        &.grupo-3{
+            background-color: rgb(166, 253, 134);
+        }
         
         .nota{
-            height: 27px;
+            height: 40px;
             background-color: #000080ff;
             color: #00ffffff;
             text-align: center;
@@ -23,7 +38,7 @@ body{
             margin-top: 10px;
             height: 83px;
             position: relative;
-            z-index: 0;
+            padding-top: 25px;
 
             .bolinha{
                 width: 9px;
@@ -32,7 +47,6 @@ body{
                 border-radius: 5px;
                 position: absolute;
                 left: 21px;
-                z-index: 1;
 
                 &.linha0{
                     top: 66px;
@@ -276,4 +290,9 @@ body{
             }
         }
     }
+}
+
+.digitacao::after{
+    content: "\a";
+    white-space: pre;
 }
