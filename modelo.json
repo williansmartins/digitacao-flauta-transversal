@@ -26,7 +26,8 @@
                             "chave6": false,
                             "chave7": true,
                             "chave8": true
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 2,
@@ -53,7 +54,8 @@
                             "chave6": false,
                             "chave7": true,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 3,
@@ -79,7 +81,8 @@
                             "chave6": false,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 4,
@@ -106,7 +109,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 5,
@@ -132,7 +136,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 6,
@@ -158,7 +163,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 7,
@@ -176,8 +182,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -186,7 +191,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 8,
@@ -203,8 +209,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -213,7 +218,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 9,
@@ -231,8 +237,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": true,
                             "chave3": false,
@@ -241,7 +246,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 10,
@@ -258,8 +264,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -268,7 +273,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 11,
@@ -286,8 +292,7 @@
                             "tecla3": false,
                             "tecla4": true,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -296,7 +301,8 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
                         "numero": 12,
@@ -313,8 +319,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -323,14 +328,15 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     }
                 ]
             },
             {
                 "grupo": [
                     {
-                        "numero": 1,
+                        "numero": 13,
                         "grupo": 2,
                         "nota": "Do 4",
                         "pentagrama": {
@@ -344,9 +350,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
-                            "chave1": false,
+                            "tecla6": false,  "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -354,10 +358,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
-                        "numero": 1,
+                        "numero": 14,
                         "grupo": 2,
                         "nota": "Do # Reb ",
                         "pentagrama": {
@@ -372,9 +377,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
-                            "chave1": false,
+                            "tecla6": false,  "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -382,10 +385,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
-                        "numero": 1,
+                        "numero": 15,
                         "grupo": 2,
                         "nota": "Ré 4",
                         "pentagrama": {
@@ -399,8 +403,7 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
@@ -409,10 +412,11 @@
                             "chave6": false,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
-                        "numero": 1,
+                        "numero": 16,
                         "grupo": 2,
                         "nota": "Ré # Mib ",
                         "pentagrama": {
@@ -427,20 +431,20 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
-                            "chave6": false,
+                            "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
-                        "numero": 1,
+                        "numero": 17,
                         "grupo": 2,
                         "nota": "Mi 4",
                         "pentagrama": {
@@ -454,8 +458,7 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -464,10 +467,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": true
                     },
                     {
-                        "numero": 1,
+                        "numero": 18,
                         "grupo": 2,
                         "nota": "Fa 4",
                         "pentagrama": {
@@ -481,20 +485,20 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
-                            "chave6": false,
+                            "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 19,
                         "grupo": 2,
                         "nota": "Fa # Sol b",
                         "pentagrama": {
@@ -509,8 +513,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -519,10 +522,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 20,
                         "grupo": 2,
                         "nota": "Sol 4",
                         "pentagrama": {
@@ -536,8 +540,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -546,10 +549,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 21,
                         "grupo": 2,
                         "nota": "Sol # Lab ",
                         "pentagrama": {
@@ -564,8 +568,7 @@
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": true,
                             "chave3": false,
@@ -574,10 +577,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 22,
                         "grupo": 2,
                         "nota": "La 4",
                         "pentagrama": {
@@ -591,8 +595,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -601,10 +604,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 23,
                         "grupo": 2,
                         "nota": "La # Sib ",
                         "pentagrama": {
@@ -619,8 +623,7 @@
                             "tecla3": false,
                             "tecla4": true,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -629,10 +632,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 24,
                         "grupo": 2,
                         "nota": "Si 4",
                         "pentagrama": {
@@ -646,8 +650,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
+                            "tecla6": false,  
                             "chave1": true,
                             "chave2": false,
                             "chave3": false,
@@ -656,14 +659,15 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     }
                 ]
             },
             {
                 "grupo": [
                     {
-                        "numero": 1,
+                        "numero": 25,
                         "grupo": 3,
                         "nota": "Do 5",
                         "pentagrama": {
@@ -677,9 +681,7 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,
-            
-                            "chave1": false,
+                            "tecla6": false,  "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -687,10 +689,11 @@
                             "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 26,
                         "grupo": 3,
                         "nota": "Do # Ré b",
                         "pentagrama": {
@@ -705,20 +708,20 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
-                            "chave6": false,
+                            "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     },
                     {
-                        "numero": 1,
+                        "numero": 27,
                         "grupo": 3,
                         "nota": "Ré 5",
                         "pentagrama": {
@@ -732,17 +735,17 @@
                             "tecla3": true,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,
-            
+                            "tecla6": true,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
-                            "chave6": false,
+                            "chave6": true,
                             "chave7": false,
                             "chave8": false
-                        }
+                        },
+                        "validado": false
                     }
                 ]
             }

@@ -8,6 +8,7 @@ body .grupos {
   padding: 10px;
   margin: 0 auto;
   width: 760px;
+  height: 440px;
 }
 body .grupos.grupo-1 {
   overflow: auto;
@@ -25,6 +26,7 @@ body .digitacao {
   float: left;
   margin-left: 10px;
   padding-bottom: 40px;
+  position: relative;
 }
 body .digitacao.digitacao-1 {
   background-color: #cecece;
@@ -243,6 +245,17 @@ body .digitacao .teclas .tecla.tecla5 {
 }
 body .digitacao .teclas .tecla.tecla6 {
   margin-top: 2px;
+}
+body .digitacao .numero {
+  bottom: -25px;
+  position: absolute;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  border: solid 1px black;
+}
+body .digitacao .validado-true {
+  background-color: greenyellow;
 }
 .digitacao::after {
   content: "\a";

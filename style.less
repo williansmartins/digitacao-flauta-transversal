@@ -9,6 +9,7 @@ body{
         padding: 10px;
         margin: 0 auto;
         width: 760px;
+        height: 440px;
 
         &.grupo-1{
             // background-color: gray;
@@ -35,6 +36,7 @@ body{
         float: left;
         margin-left: 10px;
         padding-bottom: 40px;
+        position: relative;
 
         &.digitacao-1{
             background-color: rgb(206, 206, 206);
@@ -313,6 +315,19 @@ body{
                     margin-top: 2px;
                 }
             }
+
+        }
+        .numero{
+            bottom: -25px;
+            position: absolute;
+            border-radius: 10px;
+            width: 50px;
+            text-align: center;
+            border: solid 1px black;
+        }
+
+        .validado-true{
+            background-color: greenyellow;
         }
     }
 }

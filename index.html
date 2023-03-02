@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digitação Flauta Transversal</title>
     <link rel="stylesheet" href="style.css">
     <script src="angular-1.5.8.js"></script>
     <script src="scripts.js"></script>
@@ -74,6 +74,7 @@
                 <span id="chave7" class="chave" ng-class="{'active' : digitacao.teclas.chave7}"></span>
                 <span id="chave8" class="chave" ng-class="{'active' : digitacao.teclas.chave8}"></span>
             </div>
+            <div class="numero validado-{{digitacao.validado}}">{{digitacao.numero}}</div>
         </div>
     </div>
 </body>
