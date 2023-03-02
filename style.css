@@ -1,3 +1,23 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+body h1 {
+  text-align: center;
+}
+body .grupos {
+  padding: 10px;
+  margin: 0 auto;
+  width: 760px;
+}
+body .grupos.grupo-1 {
+  overflow: auto;
+}
+body .grupos.grupo-2 {
+  overflow: auto;
+}
+body .grupos.grupo-3 {
+  overflow: auto;
+}
 body .digitacao {
   border: solid 1px black;
   width: 50px;
@@ -6,13 +26,13 @@ body .digitacao {
   margin-left: 10px;
   padding-bottom: 40px;
 }
-body .digitacao.grupo-1 {
+body .digitacao.digitacao-1 {
   background-color: #cecece;
 }
-body .digitacao.grupo-2 {
+body .digitacao.digitacao-2 {
   background-color: #ff5d3c;
 }
-body .digitacao.grupo-3 {
+body .digitacao.digitacao-3 {
   background-color: #a6fd86;
 }
 body .digitacao .nota {
@@ -27,7 +47,7 @@ body .digitacao .pentagrama {
   margin-top: 10px;
   height: 83px;
   position: relative;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 body .digitacao .pentagrama .bolinha {
   width: 9px;
@@ -144,6 +164,7 @@ body .digitacao .teclas .chave {
   border: solid 2px black;
   position: absolute;
   border-radius: 5px;
+  background-color: white;
 }
 body .digitacao .teclas .chave.active {
   background-color: red;
@@ -203,6 +224,7 @@ body .digitacao .teclas .tecla {
   border-radius: 12px;
   border: solid 2px black;
   margin: 0 auto;
+  background-color: white;
 }
 body .digitacao .teclas .tecla.active {
   background-color: red;
