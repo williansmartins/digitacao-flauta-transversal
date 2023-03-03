@@ -87,7 +87,7 @@
                     {
                         "numero": 4,
                         "grupo":1,
-                        "nota": "Ré # Mib ",
+                        "nota": "Ré # Mi b ",
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 0, "bemol": false, "sustenido": true},
@@ -224,7 +224,7 @@
                     {
                         "numero": 9,
                         "grupo":1,
-                        "nota": "Sol # Lab ",
+                        "nota": "Sol # La b ",
                         "pentagrama": {
                             "notas": [
                                 {"linha": 2, "bemol": false, "sustenido": true},
@@ -279,7 +279,7 @@
                     {
                         "numero": 11,
                         "grupo":1,
-                        "nota": "La # Sib ",
+                        "nota": "La # Si b ",
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 2, "bemol": false, "sustenido": true},
@@ -364,7 +364,7 @@
                     {
                         "numero": 14,
                         "grupo": 2,
-                        "nota": "Do # Reb ",
+                        "nota": "Do # Ré b ",
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 3, "bemol": false, "sustenido": true},
@@ -404,7 +404,7 @@
                             "tecla4": true,
                             "tecla5": true,
                             "tecla6": true,            
-                            "chave1": false,
+                            "chave1": true,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -418,7 +418,7 @@
                     {
                         "numero": 16,
                         "grupo": 2,
-                        "nota": "Ré # Mib ",
+                        "nota": "Ré # Mi b ",
                         "pentagrama": {
                             "notas": [
                                 {"linha": 4, "bemol": false, "sustenido": true},
@@ -432,7 +432,7 @@
                             "tecla4": true,
                             "tecla5": true,
                             "tecla6": true,            
-                            "chave1": false,
+                            "chave1": true,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -480,13 +480,13 @@
                             ]
                         },
                         "teclas":{
-                            "tecla1": false,
+                            "tecla1": true,
                             "tecla2": true,
                             "tecla3": true,
                             "tecla4": true,
-                            "tecla5": true,
-                            "tecla6": true,            
-                            "chave1": false,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -495,7 +495,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 19,
@@ -503,8 +503,8 @@
                         "nota": "Fa # Sol b",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 1, "bemol": false, "sustenido": true},
-                                {"linha": 2, "bemol": true, "sustenido": false}
+                                {"linha": 5, "bemol": false, "sustenido": true},
+                                {"espaco": 5, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -523,7 +523,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 20,
@@ -531,7 +531,7 @@
                         "nota": "Sol 4",
                         "pentagrama": {
                             "notas": [
-                                {"linha": 2, "bemol": false, "sustenido": false}
+                                {"espaco": 5, "bemol": false, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -550,16 +550,16 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 21,
                         "grupo": 2,
-                        "nota": "Sol # Lab ",
+                        "nota": "Sol # La b ",
                         "pentagrama": {
                             "notas": [
-                                {"linha": 2, "bemol": false, "sustenido": true},
-                                {"espaco": 2, "bemol": true, "sustenido": false}
+                                {"espaco": 5, "bemol": false, "sustenido": true},
+                                {"linha": 6, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -578,7 +578,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 22,
@@ -586,7 +586,7 @@
                         "nota": "La 4",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 2, "bemol": false, "sustenido": false}
+                                {"linha": 6, "bemol": false, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -605,16 +605,16 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 23,
                         "grupo": 2,
-                        "nota": "La # Sib ",
+                        "nota": "La # Si b ",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 2, "bemol": false, "sustenido": true},
-                                {"linha": 3, "bemol": true, "sustenido": false}
+                                {"linha": 6, "bemol": false, "sustenido": true},
+                                {"espaco": 6, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -633,7 +633,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 24,
@@ -641,7 +641,7 @@
                         "nota": "Si 4",
                         "pentagrama": {
                             "notas": [
-                                {"linha": 3, "bemol": false, "sustenido": false}
+                                {"espaco": 6, "bemol": false, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -660,7 +660,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     }
                 ]
             },
@@ -672,7 +672,7 @@
                         "nota": "Do 5",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 3, "bemol": false, "sustenido": false}
+                                {"linha": 7, "bemol": false, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -681,7 +681,8 @@
                             "tecla3": false,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,  "chave1": false,
+                            "tecla6": false,  
+                            "chave1": false,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
@@ -690,7 +691,7 @@
                             "chave7": false,
                             "chave8": false
                         },
-                        "validado": false
+                        "validado": true
                     },
                     {
                         "numero": 26,
@@ -698,8 +699,63 @@
                         "nota": "Do # Ré b",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 3, "bemol": false, "sustenido": true},
-                                {"linha": 4, "bemol": true, "sustenido": false}
+                                {"espaco": 7, "bemol": false, "sustenido": true},
+                                {"linha": 7, "bemol": true, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": false,
+                            "tecla2": false,
+                            "tecla3": false,
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": false,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": true
+                    },
+                    {
+                        "numero": 27,
+                        "grupo": 3,
+                        "nota": "Ré 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 7, "bemol": false, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": false,
+                            "tecla2": true,
+                            "tecla3": true,
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": true
+                    },
+                    {
+                        "numero": 28,
+                        "grupo": 3,
+                        "nota": "Ré # Mib",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 7, "bemol": false, "sustenido": true},
+                                {"linha": 8, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -709,6 +765,115 @@
                             "tecla4": true,
                             "tecla5": true,
                             "tecla6": true,            
+                            "chave1": true,
+                            "chave2": true,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": true
+                    },
+                    {
+                        "numero": 29,
+                        "grupo": 3,
+                        "nota": "Mi 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"linha": 8, "bemol": false, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": true,
+                            "tecla2": true,
+                            "tecla3": false,
+                            "tecla4": true,
+                            "tecla5": true,
+                            "tecla6": false,            
+                            "chave1": true,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": true
+                    },
+                    {
+                        "numero": 30,
+                        "grupo": 3,
+                        "nota": "Fa 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 8, "bemol": false, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": true,
+                            "tecla2": false,
+                            "tecla3": true,
+                            "tecla4": true,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": false
+                    },
+                    {
+                        "numero": 31,
+                        "grupo": 3,
+                        "nota": "Fa # Sol b",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 8, "bemol": false, "sustenido": true},
+                                {"linha": 8, "bemol": true, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": false,
+                            "tecla2": true,
+                            "tecla3": true,
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": false,
+                            "chave2": true,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": false
+                    },
+                    {
+                        "numero": 32,
+                        "grupo": 3,
+                        "nota": "Sol 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"linha": 9, "bemol": false, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": true,
+                            "tecla2": true,
+                            "tecla3": true,
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
                             "chave1": false,
                             "chave2": false,
                             "chave3": false,
@@ -721,26 +886,109 @@
                         "validado": false
                     },
                     {
-                        "numero": 27,
+                        "numero": 33,
                         "grupo": 3,
-                        "nota": "Ré 5",
+                        "nota": "Sol # La b",
                         "pentagrama": {
                             "notas": [
-                                {"linha": 4, "bemol": false, "sustenido": false}
+                                {"linha": 9, "bemol": false, "sustenido": true},
+                                {"espaco": 9, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
-                            "tecla1": true,
+                            "tecla1": false,
                             "tecla2": true,
                             "tecla3": true,
-                            "tecla4": true,
-                            "tecla5": true,
-                            "tecla6": true,            
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
                             "chave1": false,
+                            "chave2": true,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": false
+                    },
+                    {
+                        "numero": 34,
+                        "grupo": 3,
+                        "nota": "La 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 9, "bemol": false, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": false,
+                            "tecla2": true,
+                            "tecla3": false,
+                            "tecla4": true,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
                             "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": false
+                    },
+                    {
+                        "numero": 35,
+                        "grupo": 3,
+                        "nota": "La # Si b",
+                        "pentagrama": {
+                            "notas": [
+                                {"espaco": 9, "bemol": false, "sustenido": true},
+                                {"linha": 10, "bemol": true, "sustenido": false}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": false,
+                            "tecla2": false,
+                            "tecla3": false,
+                            "tecla4": true,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": true,
+                            "chave5": false,
+                            "chave6": true,
+                            "chave7": false,
+                            "chave8": false
+                        },
+                        "validado": false
+                    },
+                    {
+                        "numero": 36,
+                        "grupo": 3,
+                        "nota": "Si 5",
+                        "pentagrama": {
+                            "notas": [
+                                {"linha": 10, "bemol": true, "sustenido": true}
+                            ]
+                        },
+                        "teclas":{
+                            "tecla1": true,
+                            "tecla2": false,
+                            "tecla3": true,
+                            "tecla4": false,
+                            "tecla5": false,
+                            "tecla6": false,            
+                            "chave1": true,
+                            "chave2": false,
+                            "chave3": false,
+                            "chave4": false,
+                            "chave5": true,
                             "chave6": true,
                             "chave7": false,
                             "chave8": false

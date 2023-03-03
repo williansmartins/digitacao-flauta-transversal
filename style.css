@@ -65,8 +65,8 @@ body .digitacao .pentagrama .bolinha.linha0 {
 body .digitacao .pentagrama .bolinha.linha0:before {
   content: "__";
   display: block;
-  margin-top: -12px;
-  margin-left: -3px;
+  margin-top: -13px;
+  margin-left: -5px;
 }
 body .digitacao .pentagrama .bolinha.linha1 {
   top: 56px;
@@ -89,8 +89,8 @@ body .digitacao .pentagrama .bolinha.linha6 {
 body .digitacao .pentagrama .bolinha.linha6:before {
   content: "__";
   display: block;
-  margin-top: -12px;
-  margin-left: -3px;
+  margin-top: -13px;
+  margin-left: -5px;
 }
 body .digitacao .pentagrama .bolinha.linha7 {
   top: -4px;
@@ -98,8 +98,17 @@ body .digitacao .pentagrama .bolinha.linha7 {
 body .digitacao .pentagrama .bolinha.linha7:before {
   content: "__";
   display: block;
-  margin-top: -12px;
-  margin-left: -3px;
+  margin-top: -13px;
+  margin-left: -5px;
+}
+body .digitacao .pentagrama .bolinha.linha10 {
+  top: -4px;
+}
+body .digitacao .pentagrama .bolinha.linha10:before {
+  content: "__(L10)";
+  display: block;
+  margin-top: -13px;
+  margin-left: -5px;
 }
 body .digitacao .pentagrama .bolinha.espaco0 {
   top: 61px;
