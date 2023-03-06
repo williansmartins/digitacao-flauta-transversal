@@ -37,7 +37,11 @@ body .grupos .digitacao {
 }
 body .grupos .digitacao:hover {
   opacity: 1!important;
-  margin-top: -15px;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  -webkit-animation: animacaoMovimento 0.2s forwards;
+  /* for less modern browsers */
+  animation: animacaoMovimento 0.2s forwards;
 }
 body .grupos .digitacao.digitacao-1 {
   background-color: #cecece;
@@ -286,4 +290,13 @@ body .grupos .digitacao .validado-true {
 .digitacao::after {
   content: "\a";
   white-space: pre;
+}
+/* The animation code */
+@keyframes animacaoMovimento {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: -15px;
+  }
 }

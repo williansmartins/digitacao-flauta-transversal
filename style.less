@@ -52,7 +52,11 @@ body{
     
             &:hover{
                 opacity: 1!important;
-                margin-top: -15px;
+                
+                animation-iteration-count: 1;
+                animation-timing-function: ease;
+                -webkit-animation: animacaoMovimento 0.2s forwards; /* for less modern browsers */
+                animation: animacaoMovimento 0.2s forwards;
             }
 
             &.digitacao-1{
@@ -383,4 +387,10 @@ body{
 .digitacao::after{
     content: "\a";
     white-space: pre;
+}
+
+/* The animation code */
+@keyframes animacaoMovimento {
+    from {margin-top: 0px;}
+    to {margin-top: -15px;}
 }
