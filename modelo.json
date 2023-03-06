@@ -699,8 +699,8 @@
                         "nota": "Do # Ré b",
                         "pentagrama": {
                             "notas": [
-                                {"espaco": 7, "bemol": false, "sustenido": true},
-                                {"linha": 7, "bemol": true, "sustenido": false}
+                                {"linha": 7, "bemol": false, "sustenido": true},
+                                {"espaco": 7, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{
@@ -837,7 +837,7 @@
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 8, "bemol": false, "sustenido": true},
-                                {"linha": 8, "bemol": true, "sustenido": false}
+                                {"linha": 9, "bemol": true, "sustenido": false}
                             ]
                         },
                         "teclas":{

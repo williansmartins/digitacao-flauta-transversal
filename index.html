@@ -14,47 +14,33 @@
     <div class="grupos grupo-{{$index+1}}" ng-repeat="grupo in grupos">
         <h2>Grupo: {{$index+3}}</h2>
         <div class="digitacao digitacao-{{digitacao.grupo}}" ng-repeat="digitacao in grupo.grupo">
-            <div class="nota">{{digitacao.nota}}</div>
+            <div class="nota-nome">{{digitacao.nota}}</div>
             <div class="pentagrama">
-                <!-- <div class="regiao extra"></div>
+                <!-- 
+                -->
                 <div class="regiao extra"></div>
                 <div class="regiao extra"></div>
                 <div class="regiao extra"></div>
-                <div class="regiao extra"></div> -->
+                <div class="regiao extra"></div>
+                <div class="regiao extra"></div> 
                 
-                <div class="regiao">
-                </div>
-                <div class="regiao">
-                </div>
-                <div class="regiao">
-                </div>
-                <div class="regiao">
-                </div>
-                <div class="regiao">
-                </div>
+                <div class="regiao"></div>
+                <div class="regiao"></div>
+                <div class="regiao"></div>
+                <div class="regiao"></div>
+                <div class="regiao"></div>
+                <div class="notas">
+                    <span ng-repeat="nota in digitacao.pentagrama.notas" 
                 <span ng-repeat="nota in digitacao.pentagrama.notas" 
-                        class="bolinha linha{{nota.linha}} espaco{{nota.espaco}}"
-                        ng-class="{
+                    <span ng-repeat="nota in digitacao.pentagrama.notas" 
+                            class="bolinha linha{{nota.linha}} espaco{{nota.espaco}} linha-extra-{{nota.linha>5}}"
+                            ng-class="{
+                            'sustenido': nota.sustenido, 
                         'sustenido': nota.sustenido, 
-                        'bemol': nota.bemol}">
-                </span>
-                <!-- <span class="bolinha linha1"></span> -->
-                <!-- <span class="bolinha linha2 sustenido"></span>
-                <span class="bolinha linha3 bemol"></span>
-                <span class="bolinha linha5 bemol"></span>
-                <span class="bolinha linha4 sustenido"></span>
-                <span class="bolinha linha6 bemol"></span>
-                <span class="bolinha linha7 bemol"></span>
-                <span class="bolinha linha0 "></span> 
-            -->
-                <!-- <span class="bolinha espaco0 sustenido"></span> -->
-                <!-- <span class="bolinha espaco1 bemol"></span>
-                <span class="bolinha espaco2 sustenido"></span>
-                <span class="bolinha espaco3 sustenido"></span>
-                <span class="bolinha espaco4 "></span>
-                <span class="bolinha espaco5 sustenido"></span>
-                <span class="bolinha espaco6 sustenido"></span>
-                <span class="bolinha espaco7 sustenido"></span> -->
+                            'sustenido': nota.sustenido, 
+                            'bemol': nota.bemol}">
+                    </span>
+                </div>
             </div>
             <div class="teclas">
                 <!-- 
