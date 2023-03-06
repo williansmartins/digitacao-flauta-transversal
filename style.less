@@ -34,339 +34,350 @@ body{
             // background-color: green;
             overflow: auto;
         }
-    }
 
-
-    .digitacao{
-        border: solid 1px rgb(157, 157, 157);
-        width: 50px;
-        // height: 290px;
-        border-radius: 11px;
-        float: left;
-        margin-left: 10px;
-        padding-bottom: 40px;
-        position: relative;
-        // box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-
-        &.digitacao-1{
-            background-color: rgb(206, 206, 206);
+        &:hover .digitacao{
+            opacity: 0.2!important;
         }
 
-        &.digitacao-2{
-            background-color: rgb(255, 93, 60);
-        }
-
-        &.digitacao-3{
-            background-color: rgb(166, 253, 134);
-        }
-        
-        .nota-nome{
-            height: 40px;
-            background-color: #000080ff;
-            color: #00ffffff;
-            text-align: center;
-            border-radius: 10px;
-            padding-top: 5px;
-            display: table-cell;
-            vertical-align: middle;
-            width: inherit;
-        }
-        
-        .pentagrama{
-            margin-top: 10px;
-            height: 83px;
-            // padding-top: 20px;
-            
-            .notas{
-                margin-top:-70px;
-                position: relative;
-
-
-                .bolinha{
-                    width: 9px;
-                    height: 9px;
-                    background-color: black;
-                    border-radius: 5px;
-                    position: absolute;
-                    left: 21px;
-
-                    .linha-extra-true{
-                        &:before{
-                            content: "__";
-                            display: block;
-                            margin-top: -13px;
-                            margin-left: -5px;
-                        }
-                    }
-
-                    &.linha0{
-                        top: 66px;
-
-                        &:before{
-                            content: "__";
-                            display: block;
-                            margin-top: -13px;
-                            margin-left: -5px;
-                        }
-                    }
-                    
-                    &.linha1{
-                        top: 56px;
-                    }
-
-                    &.linha2{
-                        top: 46px;
-                    }
-
-                    &.linha3{
-                        top: 36px;
-                    }
-
-                    &.linha4{
-                        top: 26px;
-                    }
-
-                    &.linha5{
-                        top: 16px;
-                    }
-
-                    &.linha6{
-                        top: 6px;
-                    }
-
-                    &.linha7{
-                        top: -4px;
-                    }
-
-                    &.linha8{
-                        top: -14px;
-                    }
-
-                    &.linha9{
-                        top: -24px;
-                    }
-
-                    &.linha10{
-                        top: -34px;
-                    }
-
-                    &.espaco0{
-                        top: 66px - 5px;
-                    }
-                    
-                    &.espaco1{
-                        top: 56px - 5px;
-                    }
-
-                    &.espaco2{
-                        top: 46px - 5px;
-                    }
-
-                    &.espaco3{
-                        top: 36px - 5px;
-                    }
-
-                    &.espaco4{
-                        top: 26px - 5px;
-                    }
-
-                    &.espaco5{
-                        top: 16px - 5px;
-                    }
-
-                    &.espaco6{
-                        top: 6px - 5px;
-                    }
-
-                    &.espaco7{
-                        top: -4px - 5px;
-                    }
-
-                    &.espaco8{
-                        top: -20px;
-                    }
-
-                    &.espaco9{
-                        top: -30px;
-                    }
-
-
-                    &.sustenido{
-                        display: block;
-                        background-color: black;
-                        left: 12px;
-
-                        &:after{
-                            content: "#";
-                            margin-left: -8px;
-                            margin-top: -2px;
-                            display: block;
-                            font-size: 11px;
-                            color: green;
-                        }
-                    }
-
-                    &.bemol{
-                        display: block;
-                        background-color: black;
-                        left: 36px;
-
-                        &:after{
-                            content: "b";
-                            margin-left: -8px;
-                            margin-top: -1px;
-                            display: block;
-                            font-size: 11px;
-                            color: purple;
-                        }
-                    }
-                }
-            }
-
-            .regiao{
-                border-top: solid 1px black;
-                height: 9px;
-
-                &.extra{
-                    border-top: solid 1px white;
-                    // border: none;
-                    // width: 16px;
-                    margin: 0 auto;
-
-                }
-
-                &.cima{
-                }
-
-                &.baixo{
-                }
-            }
-        }
-        
-        .teclas{
-            // border: solid 1px pink;
-            position: relative;
-            margin-top: 26px;
-
-            .chave{
-                border: solid 2px black;
-                position: absolute;
-                border-radius: 5px;
-                background-color: white;
-                
-                &.active{
-                    background-color: red;
-                }
-            }
-
-            #chave1{
-                width: 5px;
-                height: 16px;
-                left: 4px;
-                top: 19px;
-            }
-
-            #chave2{
-                width: 5px;
-                height: 16px;
-                left: 35px;
-                top: 52px;
-                
-            }
-
-            #chave3{
-                width: 5px;
-                height: 5px;
-                left: 9px;
-                top: 72px;
-            }
-
-            #chave4{
-                width: 5px;
-                height: 5px;
-                left: 9px;
-                top: 92px;
-            }
-
-            #chave5{
-                width: 5px;
-                height: 5px;
-                left: 9px;
-                top: 110px;
-            }
-
-            #chave6{
-                width: 17px;
-                height: 5px;
-                left: 14px;
-                top: 135px;
-            }
-
-            #chave7{
-                width: 6px;
-                height: 10px;
-                left: 14px;
-                top: 145px;
-            }
-
-            #chave8{
-                width: 5px;
-                height: 10px;
-                left: 25px;
-                top: 145px;
-            }
-
-            .tecla{
-                width: 12px;
-                height: 12px;
-                margin-bottom: 1px;
-                border-radius: 12px;
-                border: solid 2px black;
-                margin: 0 auto;
-                background-color: white;
-                
-                &.active{
-                    background-color: red;
-                }
-
-                &.tecla2{
-                    margin-top: 10px;
-                }
-
-                &.tecla3{
-                    margin-top: 2px;
-                }
-
-                &.tecla4{
-                    margin-top: 20px;
-                }
-
-                &.tecla5{
-                    margin-top: 2px;
-                }
-
-                &.tecla6{
-                    margin-top: 2px;
-                }
-            }
-
-        }
-        .numero{
-            bottom: -25px;
-            position: absolute;
-            border-radius: 10px;
-            width: 50px;
-            text-align: center;
-
-            // estilos
-            // border: solid 1px black;
+        .digitacao{
             border: solid 1px rgb(157, 157, 157);
-        }
+            width: 50px;
+            // height: 290px;
+            border-radius: 11px;
+            float: left;
+            margin-left: 10px;
+            padding-bottom: 40px;
+            position: relative;
+            // box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    
+            &:hover{
+                opacity: 1!important;
+                margin-top: -15px;
+            }
 
-        .validado-true{
-            background-color: greenyellow;
+            &.digitacao-1{
+                background-color: rgb(206, 206, 206);
+            }
+    
+            &.digitacao-2{
+                background-color: rgb(255, 93, 60);
+            }
+    
+            &.digitacao-3{
+                background-color: rgb(166, 253, 134);
+            }
+            
+            .nota-nome{
+                height: 40px;
+                background-color: #000080ff;
+                color: #00ffffff;
+                text-align: center;
+                border-radius: 10px;
+                padding-top: 2px;
+                display: table-cell;
+                vertical-align: middle;
+                width: inherit;
+            }
+            
+            .pentagrama{
+                margin-top: 10px;
+                height: 83px;
+                // padding-top: 20px;
+                
+                .notas{
+                    margin-top:-70px;
+                    position: relative;
+    
+    
+                    .bolinha{
+                        width: 9px;
+                        height: 9px;
+                        background-color: black;
+                        border-radius: 5px;
+                        position: absolute;
+                        left: 21px;
+    
+                        .linha-extra-true{
+                            &:before{
+                                content: "__";
+                                display: block;
+                                margin-top: -13px;
+                                margin-left: -5px;
+                            }
+                        }
+    
+                        &.linha0{
+                            top: 66px;
+    
+                            &:before{
+                                content: "__";
+                                display: block;
+                                margin-top: -13px;
+                                margin-left: -5px;
+                            }
+                        }
+                        
+                        &.linha1{
+                            top: 56px;
+                        }
+    
+                        &.linha2{
+                            top: 46px;
+                        }
+    
+                        &.linha3{
+                            top: 36px;
+                        }
+    
+                        &.linha4{
+                            top: 26px;
+                        }
+    
+                        &.linha5{
+                            top: 16px;
+                        }
+    
+                        &.linha6{
+                            top: 6px;
+                        }
+    
+                        &.linha7{
+                            top: -4px;
+                        }
+    
+                        &.linha8{
+                            top: -14px;
+                        }
+    
+                        &.linha9{
+                            top: -24px;
+                        }
+    
+                        &.linha10{
+                            top: -34px;
+                        }
+    
+                        &.espaco0{
+                            top: 66px - 5px;
+                        }
+                        
+                        &.espaco1{
+                            top: 56px - 5px;
+                        }
+    
+                        &.espaco2{
+                            top: 46px - 5px;
+                        }
+    
+                        &.espaco3{
+                            top: 36px - 5px;
+                        }
+    
+                        &.espaco4{
+                            top: 26px - 5px;
+                        }
+    
+                        &.espaco5{
+                            top: 16px - 5px;
+                        }
+    
+                        &.espaco6{
+                            top: 6px - 5px;
+                        }
+    
+                        &.espaco7{
+                            top: -4px - 5px;
+                        }
+    
+                        &.espaco8{
+                            top: -20px;
+                        }
+    
+                        &.espaco9{
+                            top: -30px;
+                        }
+    
+    
+                        &.sustenido{
+                            display: block;
+                            background-color: black;
+                            left: 12px;
+    
+                            &:after{
+                                content: "#";
+                                margin-left: -8px;
+                                margin-top: -2px;
+                                display: block;
+                                font-size: 11px;
+                                color: green;
+                            }
+                        }
+    
+                        &.bemol{
+                            display: block;
+                            background-color: black;
+                            left: 36px;
+    
+                            &:after{
+                                content: "b";
+                                margin-left: -8px;
+                                margin-top: -1px;
+                                display: block;
+                                font-size: 11px;
+                                color: purple;
+                            }
+                        }
+                    }
+                }
+    
+                .regiao{
+                    border-top: solid 1px black;
+                    height: 9px;
+    
+                    &.extra{
+                        border-top: solid 1px white;
+                        // border: none;
+                        // width: 16px;
+                        margin: 0 auto;
+    
+                    }
+    
+                    &.cima{
+                    }
+    
+                    &.baixo{
+                    }
+                }
+            }
+            
+            .teclas{
+                // border: solid 1px pink;
+                position: relative;
+                margin-top: 26px;
+    
+                .chave{
+                    border: solid 2px black;
+                    position: absolute;
+                    border-radius: 5px;
+                    background-color: white;
+                    
+                    &.active{
+                        background-color: red;
+                    }
+                }
+    
+                #chave1{
+                    width: 5px;
+                    height: 16px;
+                    left: 4px;
+                    top: 19px;
+                }
+    
+                #chave2{
+                    width: 5px;
+                    height: 16px;
+                    left: 35px;
+                    top: 52px;
+                    
+                }
+    
+                #chave3{
+                    width: 5px;
+                    height: 5px;
+                    left: 9px;
+                    top: 72px;
+                }
+    
+                #chave4{
+                    width: 5px;
+                    height: 5px;
+                    left: 9px;
+                    top: 92px;
+                }
+    
+                #chave5{
+                    width: 5px;
+                    height: 5px;
+                    left: 9px;
+                    top: 110px;
+                }
+    
+                #chave6{
+                    width: 17px;
+                    height: 5px;
+                    left: 14px;
+                    top: 135px;
+                }
+    
+                #chave7{
+                    width: 6px;
+                    height: 10px;
+                    left: 14px;
+                    top: 145px;
+                }
+    
+                #chave8{
+                    width: 5px;
+                    height: 10px;
+                    left: 25px;
+                    top: 145px;
+                }
+    
+                .tecla{
+                    width: 12px;
+                    height: 12px;
+                    margin-bottom: 1px;
+                    border-radius: 12px;
+                    border: solid 2px black;
+                    margin: 0 auto;
+                    background-color: white;
+                    
+                    &.active{
+                        background-color: red;
+                    }
+    
+                    &.tecla2{
+                        margin-top: 10px;
+                    }
+    
+                    &.tecla3{
+                        margin-top: 2px;
+                    }
+    
+                    &.tecla4{
+                        margin-top: 20px;
+                    }
+    
+                    &.tecla5{
+                        margin-top: 2px;
+                    }
+    
+                    &.tecla6{
+                        margin-top: 2px;
+                    }
+                }
+    
+            }
+    
+            .numero{
+                bottom: -25px;
+                position: absolute;
+                border-radius: 10px;
+                width: 50px;
+                text-align: center;
+    
+                // estilos
+                // border: solid 1px black;
+                border: solid 1px rgb(157, 157, 157);
+            }
+    
+            .validado-true{
+                background-color: greenyellow;
+            }
         }
     }
+
+
 }
 
 .digitacao::after{

@@ -12,7 +12,7 @@
 <body ng-app="app" ng-controller="Controller1">
     <h1>Digitação da Flauta Transversal</h1>
     <div class="grupos grupo-{{$index+1}}" ng-repeat="grupo in grupos">
-        <h2>Grupo: {{$index+3}}</h2>
+        <h2>Oitava: {{$index+3}}</h2>
         <div class="digitacao digitacao-{{digitacao.grupo}}" ng-repeat="digitacao in grupo.grupo">
             <div class="nota-nome">{{digitacao.nota}}</div>
             <div class="pentagrama">
