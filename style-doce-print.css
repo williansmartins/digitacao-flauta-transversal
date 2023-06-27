@@ -1,47 +1,8 @@
-body {
-  font-family: 'Courier New', Courier, monospace;
-}
-body h1 {
-  text-align: center;
-}
-body .grupos {
-  padding: 10px;
-  margin: 0 auto;
-  width: 760px;
-  height: 470px;
-  margin-top: 20px;
-}
 body .grupos h2 {
   border-bottom: solid 1px gray;
 }
-body .grupos.grupo-1 {
-  overflow: auto;
-}
-body .grupos.grupo-2 {
-  overflow: auto;
-}
-body .grupos.grupo-3 {
-  overflow: auto;
-}
-body .grupos:hover .digitacao {
-  opacity: 0.2 !important;
-}
 body .grupos .digitacao {
   border: solid 1px #9d9d9d;
-  width: 50px;
-  border-radius: 11px;
-  float: left;
-  margin-left: 10px;
-  padding-bottom: 40px;
-  position: relative;
-}
-body .grupos .digitacao:hover {
-  opacity: 1!important;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  -webkit-animation: animacaoMovimento 0.2s forwards;
-  /* for less modern browsers */
-  animation: animacaoMovimento 0.2s forwards;
 }
 body .grupos .digitacao.digitacao-1 {
   background-color: white;
@@ -49,110 +10,12 @@ body .grupos .digitacao.digitacao-1 {
 body .grupos .digitacao.digitacao-2 {
   background-color: white;
 }
-body .grupos .digitacao.digitacao-3 {
-  background-color: white;
-}
 body .grupos .digitacao .nota-nome {
-  height: 40px;
   background-color: white;
   color: black;
-  text-align: center;
-  border-radius: 10px;
-  padding-top: 2px;
-  display: table-cell;
-  vertical-align: middle;
-  width: inherit;
-}
-body .grupos .digitacao .pentagrama {
-  margin-top: 10px;
-  height: 83px;
-}
-body .grupos .digitacao .pentagrama .notas {
-  margin-top: -70px;
-  position: relative;
 }
 body .grupos .digitacao .pentagrama .notas .bolinha {
-  width: 9px;
-  height: 9px;
   background-color: black;
-  border-radius: 5px;
-  position: absolute;
-  left: 21px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha .linha-extra-true:before {
-  content: "__";
-  display: block;
-  margin-top: -13px;
-  margin-left: -5px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha0 {
-  top: 66px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha0:before {
-  content: "__";
-  display: block;
-  margin-top: -13px;
-  margin-left: -5px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha1 {
-  top: 56px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha2 {
-  top: 46px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha3 {
-  top: 36px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha4 {
-  top: 26px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha5 {
-  top: 16px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha6 {
-  top: 6px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha7 {
-  top: -4px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha8 {
-  top: -14px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha9 {
-  top: -24px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.linha10 {
-  top: -34px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco0 {
-  top: 61px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco1 {
-  top: 51px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco2 {
-  top: 41px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco3 {
-  top: 31px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco4 {
-  top: 21px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco5 {
-  top: 11px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco6 {
-  top: 1px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco7 {
-  top: -9px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco8 {
-  top: -20px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.espaco9 {
-  top: -30px;
 }
 body .grupos .digitacao .pentagrama .notas .bolinha.sustenido {
   display: block;
@@ -168,155 +31,31 @@ body .grupos .digitacao .pentagrama .notas .bolinha.sustenido:after {
   color: green;
 }
 body .grupos .digitacao .pentagrama .notas .bolinha.bemol {
-  display: block;
   background-color: black;
-  left: 36px;
-}
-body .grupos .digitacao .pentagrama .notas .bolinha.bemol:after {
-  content: "b";
-  margin-left: -8px;
-  margin-top: -1px;
-  display: block;
-  font-size: 11px;
-  color: purple;
 }
 body .grupos .digitacao .pentagrama .regiao {
   border-top: solid 1px black;
-  height: 9px;
 }
 body .grupos .digitacao .pentagrama .regiao.extra {
   border-top: solid 1px #d8d8d8;
-  margin: 0 auto;
-}
-body .grupos .digitacao .teclas {
-  position: relative;
-  margin-top: 26px;
 }
 body .grupos .digitacao .teclas .chave {
   border: solid 2px black;
-  position: absolute;
-  border-radius: 5px;
   background-color: white;
 }
 body .grupos .digitacao .teclas .chave.active {
   background-color: red;
 }
-body .grupos .digitacao .teclas #chave1 {
-  width: 5px;
-  height: 16px;
-  left: 4px;
-  top: 19px;
-}
-body .grupos .digitacao .teclas #chave2 {
-  width: 5px;
-  height: 16px;
-  left: 35px;
-  top: 52px;
-}
-body .grupos .digitacao .teclas #chave3 {
-  width: 5px;
-  height: 5px;
-  left: 9px;
-  top: 72px;
-}
-body .grupos .digitacao .teclas #chave4 {
-  width: 5px;
-  height: 5px;
-  left: 9px;
-  top: 92px;
-}
-body .grupos .digitacao .teclas #chave5 {
-  width: 5px;
-  height: 5px;
-  left: 9px;
-  top: 110px;
-}
-body .grupos .digitacao .teclas #chave6 {
-  width: 17px;
-  height: 5px;
-  left: 14px;
-  top: 135px;
-}
-body .grupos .digitacao .teclas #chave7 {
-  width: 6px;
-  height: 10px;
-  left: 14px;
-  top: 145px;
-}
-body .grupos .digitacao .teclas #chave8 {
-  width: 5px;
-  height: 10px;
-  left: 25px;
-  top: 145px;
-}
 body .grupos .digitacao .teclas .tecla {
-  width: 12px;
-  height: 12px;
-  margin-bottom: 1px;
-  border-radius: 12px;
   border: solid 2px black;
-  margin: 0 auto;
   background-color: white;
 }
 body .grupos .digitacao .teclas .tecla.active {
   background-color: red;
 }
-body .grupos .digitacao .teclas .tecla.tecla2 {
-  margin-top: 10px;
-}
-body .grupos .digitacao .teclas .tecla.tecla3 {
-  margin-top: 2px;
-}
-body .grupos .digitacao .teclas .tecla.tecla4 {
-  margin-top: 20px;
-}
-body .grupos .digitacao .teclas .tecla.tecla5 {
-  margin-top: 2px;
-}
-body .grupos .digitacao .teclas .tecla.tecla6 {
-  margin-top: 2px;
-}
 body .grupos .digitacao .numero {
-  bottom: -25px;
-  position: absolute;
-  border-radius: 10px;
-  width: 50px;
-  text-align: center;
   border: solid 1px #9d9d9d;
 }
 body .grupos .digitacao .numero.validado-true {
   background-color: #bababa;
-}
-body .grupos .digitacao .sopro {
-  bottom: -48px;
-  position: absolute;
-  border-radius: 0px;
-  width: 50px;
-  text-align: center;
-}
-body .grupos .digitacao .sopro.sopro-1 {
-  background-color: #d8d8d8;
-  border-bottom: solid 1px black;
-}
-body .grupos .digitacao .sopro.sopro-2 {
-  background-color: #d8d8d8;
-  color: white;
-  border-bottom: dotted 2px black;
-}
-body .grupos .digitacao .sopro.sopro-3 {
-  background-color: #d8d8d8;
-  color: white;
-}
-.digitacao::after {
-  content: "\a";
-  white-space: pre;
-}
-/* The animation code */
-@keyframes animacaoMovimento {
-  from {
-    margin-top: 0px;
-  }
-  to {
-    margin-top: -15px;
-  }
 }
