@@ -44,7 +44,7 @@ body .grupos .digitacao .teclas .chave {
   background-color: white;
 }
 body .grupos .digitacao .teclas .chave.active {
-  background-color: red;
+  background-color: black;
 }
 body .grupos .digitacao .teclas .tecla {
   border: solid 2px black;

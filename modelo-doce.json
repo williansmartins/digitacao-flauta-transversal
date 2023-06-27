@@ -205,13 +205,13 @@
                             "tecla3": false,
                             "tecla4": true,
                             "tecla5": true,
-                            "tecla6": true,  
+                            "tecla6": false,  
                             "tecla7": false,
                             "chave1": true,
-                            "chave4": true,
+                            "chave4": false,
                             "chave5": false
                         },
-                        "validado": true
+                        "validado": false
                     },
                     {
                         "numero": 10,
