@@ -6,6 +6,7 @@
                         "numero": 1,
                         "grupo":1,
                         "nota": "Dó 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 0, "bemol": false, "sustenido": false}
@@ -33,6 +34,7 @@
                         "numero": 2,
                         "grupo":1,
                         "nota": "Dó #  Ré b",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 0, "bemol": false, "sustenido": true},
@@ -61,6 +63,7 @@
                         "numero": 3,
                         "grupo":1,
                         "nota": "Ré 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 0, "bemol": false, "sustenido": false}
@@ -88,6 +91,7 @@
                         "numero": 4,
                         "grupo":1,
                         "nota": "Ré # Mi b ",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 0, "bemol": false, "sustenido": true},
@@ -116,6 +120,7 @@
                         "numero": 5,
                         "grupo":1,
                         "nota": "Mi 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 1, "bemol": false, "sustenido": false}
@@ -143,6 +148,7 @@
                         "numero": 6,
                         "grupo":1,
                         "nota": "Fa 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 1, "bemol": false, "sustenido": false}
@@ -170,6 +176,7 @@
                         "numero": 7,
                         "grupo":1,
                         "nota": "Fa # Sol b",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 1, "bemol": false, "sustenido": true},
@@ -198,6 +205,7 @@
                         "numero": 8,
                         "grupo":1,
                         "nota": "Sol 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 2, "bemol": false, "sustenido": false}
@@ -225,6 +233,7 @@
                         "numero": 9,
                         "grupo":1,
                         "nota": "Sol # La b ",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 2, "bemol": false, "sustenido": true},
@@ -253,6 +262,7 @@
                         "numero": 10,
                         "grupo":1,
                         "nota": "La 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 2, "bemol": false, "sustenido": false}
@@ -280,6 +290,7 @@
                         "numero": 11,
                         "grupo":1,
                         "nota": "La # Si b ",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 2, "bemol": false, "sustenido": true},
@@ -308,6 +319,7 @@
                         "numero": 12,
                         "grupo":1,
                         "nota": "Si 3",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 3, "bemol": false, "sustenido": false}
@@ -339,6 +351,7 @@
                         "numero": 13,
                         "grupo": 2,
                         "nota": "Do 4",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 3, "bemol": false, "sustenido": false}
@@ -365,6 +378,7 @@
                         "numero": 14,
                         "grupo": 2,
                         "nota": "Do # Ré b ",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 3, "bemol": false, "sustenido": true},
@@ -392,6 +406,7 @@
                         "numero": 15,
                         "grupo": 2,
                         "nota": "Ré 4",
+                        "sopro": 1,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 4, "bemol": false, "sustenido": false}
@@ -419,6 +434,7 @@
                         "numero": 16,
                         "grupo": 2,
                         "nota": "Ré # Mi b ",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 4, "bemol": false, "sustenido": true},
@@ -447,6 +463,7 @@
                         "numero": 17,
                         "grupo": 2,
                         "nota": "Mi 4",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 4, "bemol": false, "sustenido": false}
@@ -474,6 +491,7 @@
                         "numero": 18,
                         "grupo": 2,
                         "nota": "Fa 4",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 5, "bemol": false, "sustenido": false}
@@ -501,6 +519,7 @@
                         "numero": 19,
                         "grupo": 2,
                         "nota": "Fa # Sol b",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 5, "bemol": false, "sustenido": true},
@@ -529,6 +548,7 @@
                         "numero": 20,
                         "grupo": 2,
                         "nota": "Sol 4",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 5, "bemol": false, "sustenido": false}
@@ -556,6 +576,7 @@
                         "numero": 21,
                         "grupo": 2,
                         "nota": "Sol # La b ",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 5, "bemol": false, "sustenido": true},
@@ -584,6 +605,7 @@
                         "numero": 22,
                         "grupo": 2,
                         "nota": "La 4",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 6, "bemol": false, "sustenido": false}
@@ -611,6 +633,7 @@
                         "numero": 23,
                         "grupo": 2,
                         "nota": "La # Si b ",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 6, "bemol": false, "sustenido": true},
@@ -639,6 +662,7 @@
                         "numero": 24,
                         "grupo": 2,
                         "nota": "Si 4",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 6, "bemol": false, "sustenido": false}
@@ -670,6 +694,7 @@
                         "numero": 25,
                         "grupo": 3,
                         "nota": "Do 5",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 7, "bemol": false, "sustenido": false}
@@ -697,6 +722,7 @@
                         "numero": 26,
                         "grupo": 3,
                         "nota": "Do # Ré b",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 7, "bemol": false, "sustenido": true},
@@ -725,6 +751,7 @@
                         "numero": 27,
                         "grupo": 3,
                         "nota": "Ré 5",
+                        "sopro": 2,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 7, "bemol": false, "sustenido": false}
@@ -752,6 +779,7 @@
                         "numero": 28,
                         "grupo": 3,
                         "nota": "Ré # Mib",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 7, "bemol": false, "sustenido": true},
@@ -780,6 +808,7 @@
                         "numero": 29,
                         "grupo": 3,
                         "nota": "Mi 5",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 8, "bemol": false, "sustenido": false}
@@ -807,6 +836,7 @@
                         "numero": 30,
                         "grupo": 3,
                         "nota": "Fa 5",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 8, "bemol": false, "sustenido": false}
@@ -834,6 +864,7 @@
                         "numero": 31,
                         "grupo": 3,
                         "nota": "Fa # Sol b",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 8, "bemol": false, "sustenido": true},
@@ -841,14 +872,14 @@
                             ]
                         },
                         "teclas":{
-                            "tecla1": false,
-                            "tecla2": true,
+                            "tecla1": true,
+                            "tecla2": false,
                             "tecla3": true,
                             "tecla4": false,
                             "tecla5": false,
-                            "tecla6": false,            
-                            "chave1": false,
-                            "chave2": true,
+                            "tecla6": true,            
+                            "chave1": true,
+                            "chave2": false,
                             "chave3": false,
                             "chave4": false,
                             "chave5": false,
@@ -862,6 +893,7 @@
                         "numero": 32,
                         "grupo": 3,
                         "nota": "Sol 5",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 9, "bemol": false, "sustenido": false}
@@ -889,6 +921,7 @@
                         "numero": 33,
                         "grupo": 3,
                         "nota": "Sol # La b",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 9, "bemol": false, "sustenido": true},
@@ -917,6 +950,7 @@
                         "numero": 34,
                         "grupo": 3,
                         "nota": "La 5",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 9, "bemol": false, "sustenido": false}
@@ -944,6 +978,7 @@
                         "numero": 35,
                         "grupo": 3,
                         "nota": "La # Si b",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"espaco": 9, "bemol": false, "sustenido": true},
@@ -972,6 +1007,7 @@
                         "numero": 36,
                         "grupo": 3,
                         "nota": "Si 5",
+                        "sopro": 3,
                         "pentagrama": {
                             "notas": [
                                 {"linha": 10, "bemol": true, "sustenido": true}
