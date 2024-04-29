@@ -1,23 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  position: relative;
-  margin: 0px;
-}
-body:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-  background-image: url(fundo-1.webp);
-  background-size: 160px;
 }
 body h1 {
   text-align: center;
-  margin: 0;
 }
 body .grupos {
   padding: 10px;
@@ -59,18 +44,18 @@ body .grupos .digitacao:hover {
   animation: animacaoMovimento 0.2s forwards;
 }
 body .grupos .digitacao.digitacao-1 {
-  background-color: #cecece;
+  background-color: white;
 }
 body .grupos .digitacao.digitacao-2 {
-  background-color: #ff5d3c;
+  background-color: white;
 }
 body .grupos .digitacao.digitacao-3 {
-  background-color: #a6fd86;
+  background-color: white;
 }
 body .grupos .digitacao .nota-nome {
   height: 40px;
-  background-color: #000080ff;
-  color: #00ffffff;
+  background-color: white;
+  color: black;
   text-align: center;
   border-radius: 10px;
   padding-top: 2px;
@@ -200,7 +185,7 @@ body .grupos .digitacao .pentagrama .regiao {
   height: 9px;
 }
 body .grupos .digitacao .pentagrama .regiao.extra {
-  border-top: solid 1px white;
+  border-top: solid 1px #d8d8d8;
   margin: 0 auto;
 }
 body .grupos .digitacao .teclas {
@@ -300,7 +285,7 @@ body .grupos .digitacao .numero {
   border: solid 1px #9d9d9d;
 }
 body .grupos .digitacao .numero.validado-true {
-  background-color: greenyellow;
+  background-color: #bababa;
 }
 body .grupos .digitacao .sopro {
   bottom: -48px;
@@ -310,14 +295,16 @@ body .grupos .digitacao .sopro {
   text-align: center;
 }
 body .grupos .digitacao .sopro.sopro-1 {
-  background-color: greenyellow;
+  background-color: #d8d8d8;
+  border-bottom: solid 1px black;
 }
 body .grupos .digitacao .sopro.sopro-2 {
-  background-color: #547f14;
+  background-color: #d8d8d8;
   color: white;
+  border-bottom: dotted 2px black;
 }
 body .grupos .digitacao .sopro.sopro-3 {
-  background-color: #233901;
+  background-color: #d8d8d8;
   color: white;
 }
 .digitacao::after {

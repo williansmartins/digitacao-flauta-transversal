@@ -1,0 +1,61 @@
+body .grupos h2 {
+  border-bottom: solid 1px gray;
+}
+body .grupos .digitacao {
+  border: solid 1px #9d9d9d;
+}
+body .grupos .digitacao.digitacao-1 {
+  background-color: white;
+}
+body .grupos .digitacao.digitacao-2 {
+  background-color: white;
+}
+body .grupos .digitacao .nota-nome {
+  background-color: white;
+  color: black;
+}
+body .grupos .digitacao .pentagrama .notas .bolinha {
+  background-color: black;
+}
+body .grupos .digitacao .pentagrama .notas .bolinha.sustenido {
+  display: block;
+  background-color: black;
+  left: 12px;
+}
+body .grupos .digitacao .pentagrama .notas .bolinha.sustenido:after {
+  content: "#";
+  margin-left: -8px;
+  margin-top: -2px;
+  display: block;
+  font-size: 11px;
+  color: green;
+}
+body .grupos .digitacao .pentagrama .notas .bolinha.bemol {
+  background-color: black;
+}
+body .grupos .digitacao .pentagrama .regiao {
+  border-top: solid 1px black;
+}
+body .grupos .digitacao .pentagrama .regiao.extra {
+  border-top: solid 1px #d8d8d8;
+}
+body .grupos .digitacao .teclas .chave {
+  border: solid 2px black;
+  background-color: white;
+}
+body .grupos .digitacao .teclas .chave.active {
+  background-color: black;
+}
+body .grupos .digitacao .teclas .tecla {
+  border: solid 2px black;
+  background-color: white;
+}
+body .grupos .digitacao .teclas .tecla.active {
+  background-color: red;
+}
+body .grupos .digitacao .numero {
+  border: solid 1px #9d9d9d;
+}
+body .grupos .digitacao .numero.validado-true {
+  background-color: #bababa;
+}
